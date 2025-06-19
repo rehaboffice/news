@@ -43,7 +43,10 @@ INSTALLED_APPS = [
     # Local
     "accounts",
     "pages",
+    "articles",
 ]
+
+TIME_ZONE = "Asia/Karachi"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -111,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
